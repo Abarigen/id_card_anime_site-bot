@@ -1,0 +1,10 @@
+{
+  "name": "anime-id-cards-shop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:assets": "powershell -ExecutionPolicy Bypass -File scripts/prepare-assets.ps1",
+    "start": "node server.js"
+  }
+}
