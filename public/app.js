@@ -7,6 +7,7 @@ buttons.forEach((button) => {
   button.addEventListener("click", () => {
     const product = button.closest("[data-card]");
     cardSelect.value = product.dataset.card;
+    window.location.hash = "order";
     document.querySelector("#order").scrollIntoView({ behavior: "smooth", block: "start" });
     setTimeout(() => form.querySelector("input[name='firstName']").focus(), 450);
   });
