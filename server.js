@@ -16,11 +16,11 @@ function imagePath(assetName, localName) {
 
 const imageMap = {
   "/images/gojo-front.jpg": imagePath("gojo-front.jpg", "IMG_3216.JPG"),
-  "/images/gojo-back.png": imagePath("gojo-back.png", "IMG_3215.PNG"),
+  "/images/gojo-back.jpg": imagePath("gojo-back.jpg", "IMG_3215.PNG"),
   "/images/naruto-front.jpg": imagePath("naruto-front.jpg", "IMG_3209.JPG"),
-  "/images/naruto-back.png": imagePath("naruto-back.png", "IMG_3210.JPG"),
-  "/images/luffy-front.png": imagePath("luffy-front.png", "IMG_3211.PNG"),
-  "/images/luffy-back.png": imagePath("luffy-back.png", "IMG_3212.PNG")
+  "/images/naruto-back.jpg": imagePath("naruto-back.jpg", "IMG_3210.JPG"),
+  "/images/luffy-front.jpg": imagePath("luffy-front.jpg", "IMG_3211.PNG"),
+  "/images/luffy-back.jpg": imagePath("luffy-back.jpg", "IMG_3212.PNG")
 };
 
 const mimeTypes = {
